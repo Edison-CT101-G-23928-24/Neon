@@ -26,8 +26,10 @@ h2{
 }
 #about{
     height: 100%;
-    background-color: rgb(68, 5, 87);
-    
+    background-image:url(/frontend/pic2.png);
+    background-size: cover;
+    image-orientation:flip;
+    background-position: center;
 }
 #testimonials{
     height: 100%;

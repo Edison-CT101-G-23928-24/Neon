@@ -1,122 +1,148 @@
-body{
+body {
     background: rgb(250, 247, 247);
     color: purple;
     margin-left: 20px;
 }
-p{
+
+p {
     margin-left: 20px;
-    word-spacing:normal;
+    word-spacing: normal;
 
 
 
 }
-button{
+
+button {
     margin-left: 80px;
     color: blue;
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
-    background-color: rgb(235, 240, 241);    
+    background-color: rgb(235, 240, 241);
     border-radius: 10px;
-    
+
 }
-button:hover{
+
+button:hover {
     background-color: orange;
     opacity: 12px;
-    
+
 }
-.Form-group input{
+
+.Form-group input {
     width: 050%;
     margin-top: 5px;
     height: 25px;
     border: radius 7px;
-   
+
 
 }
-.Form-group select{
+
+.Form-group select {
     width: 052%;
     margin-top: 5px;
     height: 30px;
     border: radius 7px;
-   
+
 
 }
-.Fname input{
+
+.Fname input {
     width: 35%;
 }
-.Fname{
+
+.Fname {
     margin-left: 0px;
 }
-.Phone input{
+
+.Phone input {
     width: 35%;
 }
-.Phone{
+
+.Phone {
     margin-left: 0px;
 }
-.Email input{
+
+.Email input {
     width: 50%;
 }
-.Email{
+
+.Email {
     margin-left: 0px;
 }
-.Password input{
+
+.Password input {
     width: 50%;
 }
-.Password{
+
+.Password {
     margin-left: 0px;
 }
-.Confirm-password input{
+
+.Confirm-password input {
     width: 50%;
 }
-.Confirm-password{
+
+.Confirm-password {
     margin-left: 0px;
-}      
-.gender select{
+}
+
+.gender select {
     width: 52%;
 }
-.gender{
+
+.gender {
     margin-left: 0px;
 }
-button{
+
+button {
     cursor: pointer;
 }
-h1{
+
+h1 {
     color: purple;
     margin: 10px;
 
 }
 
-h3{
+h3 {
     color: blue;
     margin-left: 20px;
 }
-header{
+
+header {
     background-color: rgb(235, 240, 241);
     padding: 10px;
     border-radius: 10px;
     width: 400px;
     margin-left: 20px;
 }
-header:hover{
+
+header:hover {
     background-color: orange;
     opacity: 12px;
 }
-a{
+
+a {
     text-decoration: none;
     color: blue;
     margin-left: 20px;
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-a:active{
+
+a:active {
     color: green;
 }
-a:visited{
+
+a:visited {
     color: purple;
 }
-form{
+
+form {
     background-color: white;
     width: 400px;
     padding: 20px;
@@ -124,10 +150,11 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
-input{
+
+input {
     padding-left: 5px;
     padding-top: 5px;
-    padding-bottom: 5px;    
+    padding-bottom: 5px;
     padding-right: 5px;
     background-color: rgb(235, 240, 241);
     border-radius: 7px;
@@ -135,35 +162,41 @@ input{
     outline: none;
     font-size: 16px;
     color: #333;
-}   
-input:focus{
+}
+
+input:focus {
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
     border: 1px solid rgba(81, 203, 238, 1);
 }
-input::placeholder{
+
+input::placeholder {
     color: #999;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     background-color: purple;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     background-color: blue;
 }
 
-input[type="submit"]:active{
+input[type="submit"]:active {
     background-color: red;
 }
-input[type="submit"]:focus{
+
+input[type="submit"]:focus {
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
     border: 1px solid rgba(81, 203, 238, 1);
 }
-select{
+
+select {
     padding-left: 5px;
     padding-top: 5px;
-    padding-bottom: 5px;    
+    padding-bottom: 5px;
     padding-right: 5px;
     background-color: rgb(235, 240, 241);
     border-radius: 7px;
@@ -172,11 +205,12 @@ select{
     font-size: 16px;
     color: #333;
 }
-select:focus{
+
+select:focus {
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
     border: 1px solid rgba(81, 203, 238, 1);
 }
 
-select option{
+select option {
     color: #333;
 }

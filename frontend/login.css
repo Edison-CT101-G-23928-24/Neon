@@ -1,8 +1,8 @@
-body{
+body {
 
-    background-image: url('/frontend/64b857e911da46644d3be848497ce32b_0.jpeg'); 
+    background-image: url('/frontend/64b857e911da46644d3be848497ce32b_0.jpeg');
     background-size: cover;
-    color: purple;  
+    color: purple;
     margin-left: 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,157 +10,191 @@ body{
     transform: scale(100%);
 
 }
-p{
+
+p {
     margin-left: 20px;
-    word-spacing:normal;
+    word-spacing: normal;
     text-decoration-color: aliceblue;
 
 }
-button{
+
+button {
     margin-left: 80px;
     color: blue;
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
-    background-color: rgb(235, 240, 241);    
+    background-color: rgb(235, 240, 241);
     border-radius: 10px;
 
 }
-button:hover{
+
+button:hover {
     background-color: orange;
     opacity: 12px;
 
 }
-.Form-group input{
+
+/* .Form-group input {
     width: 050%;
     margin-top: 5px;
     height: 25px;
     border: radius 7px;
 
-}
-h1{
+} */
+
+h1 {
     text-align: center;
     color: blue;
 }
-h3{
+
+h3 {
     text-align: center;
     color: brown;
 }
-header{
+
+header {
     background-color: lightgrey;
     padding: 10px;
     text-align: center;
 }
-header:hover{
+
+header:hover {
     background-color: grey;
     opacity: 10px;
 }
-a{
+
+a {
     margin-left: 20px;
     color: blue;
 }
-a:hover{
+
+a:hover {
     color: red;
     opacity: 10px;
 }
-h2{
+
+h2 {
     text-align: center;
     color: green;
 }
-h4{
+
+h4 {
     text-align: center;
     color: maroon;
 }
-h5{
+
+h5 {
     text-align: center;
     color: olive;
 }
-h6{
+
+h6 {
     text-align: center;
     color: teal;
 }
-form{
+/* 
+form {
     opacity: 10px;
     width: 350px;
     border: 2px solid black;
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-}
+} */
+
 /* form:hover{ 
     background-color: lightblue;
     opacity: 10px;
 }*/
 
 
-input{
+input {
     border-radius: 7px;
 }
 
 
-label{
+label {
     margin-left: 20px;
     color: brown;
 }
-label:hover{
+
+label:hover {
     color: red;
     opacity: 10px;
 }
-select{
+
+select {
     border-radius: 7px;
 }
-option{
+
+option {
     border-radius: 7px;
 }
-option:hover{
+
+option:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-textarea{
+
+textarea {
     border-radius: 7px;
 }
-textarea:hover{
+
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
-fieldset{
+
+fieldset {
     border-radius: 10px;
 }
-fieldset:hover{
+
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
-legend{
+
+legend {
     color: purple;
 }
-legend:hover{
+
+legend:hover {
     color: red;
     opacity: 10px;
 }
-hr{
+
+hr {
     border: 1px solid black;
 }
-hr:hover{
+
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
+
 ::-webkit-input-placeholder {
     color: grey;
 }
+
 ::-moz-placeholder {
     color: grey;
 }
+
 :-ms-input-placeholder {
     color: grey;
 }
+
 :-moz-placeholder {
     color: grey;
 }
+
 ::-webkit-input-placeholder:hover {
     color: red;
     opacity: 10px;
 }
+
 ::-moz-placeholder:hover {
     color: red;
     opacity: 10px;
@@ -170,682 +204,816 @@ hr:hover{
     color: red;
     opacity: 10px;
 }
+
 :-moz-placeholder:hover {
     color: red;
     opacity: 10px;
 }
-button:active{
+/* 
+button:active {
     transform: scale(0.98);
-}
-input:focus{
+} */
+
+input:focus {
     background-color: lightyellow;
 }
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
+
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-
-
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
+select:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
+option:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-
-
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-
-textarea:hover{
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
 
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
 
-legend:hover{
+legend:hover {
     color: red;
     opacity: 10px;
 }
 
-hr:hover{
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
-a:visited{
+
+a:visited {
     color: purple;
 }
-a:visited:hover{
+
+a:visited:hover {
     color: red;
     opacity: 10px;
 }
 
-button:focus{
+button:focus {
     background-color: lightyellow;
 }
 
-button:hover{
+button:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-
-button:active{
+/* 
+button:active {
     transform: scale(0.98);
-}
-input:focus{
+} */
+
+input:focus {
     background-color: lightyellow;
 }
 
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-textarea:hover{
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
-fieldset:hover{
+
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
 
-legend:hover{
+legend:hover {
     color: red;
     opacity: 10px;
 }
 
-hr:hover{
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
-a:visited{
+
+a:visited {
     color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-button:active{
-    transform: scale(0.98);
 }
 
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
+a:visited:hover {
     color: red;
     opacity: 10px;
 }
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
+
+button:focus {
     background-color: lightyellow;
 }
-button:hover{
+
+button:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-button:active{
+/* 
+button:active {
     transform: scale(0.98);
-}
-input:focus{
+} */
+
+input:focus {
     background-color: lightyellow;
 }
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
+
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-textarea:hover{
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
-fieldset:hover{
+
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
 
-legend:hover{
+legend:hover {
     color: red;
     opacity: 10px;
 }
-hr:hover{
-    border: 2px solid red;
-    opacity: 10px;
-}
-a:visited{
-    color: purple;
-}
-a:visited:hover{
-    color: red;
-    opacity: 10px;
-}
-button:focus{
-    background-color: lightyellow;
-}
 
-button:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
 
-button:active{
-    transform: scale(0.98);
-}
-input:focus{
-    background-color: lightyellow;
-}
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-textarea:hover{
-    background-color: lightyellow;
-    opacity: 10px;
-}
-
-fieldset:hover{
-    background-color: lightgrey;
-    opacity: 10px;
-}
-legend:hover{
-    color: red;
-    opacity: 10px;
-}
-hr:hover{
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
 
-a:visited{
+a:visited {
     color: purple;
 }
-a:visited:hover{
+
+a:visited:hover {
     color: red;
     opacity: 10px;
 }
-button:focus{
+
+button:focus {
     background-color: lightyellow;
 }
-button:hover{
+
+button:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-button:active{
+/* 
+button:active {
     transform: scale(0.98);
-}
-input:focus{
+} */
+
+input:focus {
     background-color: lightyellow;
 }
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
+
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-
-option:hover{
+select:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-textarea:hover{
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
-fieldset:hover{
+
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
 
-
-legend:hover{
+legend:hover {
     color: red;
     opacity: 10px;
 }
-hr:hover{
+
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
-a:visited{
+
+a:visited {
     color: purple;
 }
 
-
-a:visited:hover{
+a:visited:hover {
     color: red;
     opacity: 10px;
 }
 
-button:focus{
+button:focus {
     background-color: lightyellow;
 }
-button:hover{
+
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+/* 
+button:active {
+    transform: scale(0.98);
+} */
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
-button:active{
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
     transform: scale(0.98);
 }
-input:focus{
+
+input:focus {
     background-color: lightyellow;
 }
-input:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-select:hover{
-    background-color: lightgreen;
-    opacity: 10px;
-}
-option:hover{
+
+input:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
 
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
 
-textarea:hover{
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
     background-color: lightyellow;
     opacity: 10px;
 }
 
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
 
 
-fieldset:hover{
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+fieldset:hover {
     background-color: lightgrey;
     opacity: 10px;
 }
 
 
-legend:hover{
+legend:hover {
     color: red;
     opacity: 10px;
 }
-hr:hover{
+
+hr:hover {
     border: 2px solid red;
     opacity: 10px;
 }
-a:visited{
+
+a:visited {
     color: purple;
 }
 
 
-a:visited:hover{
+a:visited:hover {
     color: red;
     opacity: 10px;
 }
 
-button:focus{
+button:focus {
     background-color: lightyellow;
 }
-button:hover{
+
+button:hover {
     background-color: lightgreen;
     opacity: 10px;
 }
-h3{
+
+button:active {
+    transform: scale(0.98);
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+select:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+option:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+
+textarea:hover {
+    background-color: lightyellow;
+    opacity: 10px;
+}
+
+
+
+fieldset:hover {
+    background-color: lightgrey;
+    opacity: 10px;
+}
+
+
+legend:hover {
+    color: red;
+    opacity: 10px;
+}
+
+hr:hover {
+    border: 2px solid red;
+    opacity: 10px;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+a:visited:hover {
+    color: red;
+    opacity: 10px;
+}
+
+button:focus {
+    background-color: lightyellow;
+}
+
+button:hover {
+    background-color: lightgreen;
+    opacity: 10px;
+}
+
+h3 {
     text-align: center;
     color: white;
     background-color: blue;
