@@ -1,0 +1,16 @@
+{
+    "name": "Learn Letters & Numbers",
+    "short_name": "LearnApp",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#e6f7ff",
+    "theme_color": "#99ccff",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

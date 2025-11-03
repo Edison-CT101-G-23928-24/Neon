@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learn Letters</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #cce7ff;
+                margin-top: 50px;
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            .letters {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                max-width: 400px;
+                margin: 20px auto;
+            }
+
+            button {
+                background-color: #ffcc66;
+                border: none;
+                border-radius: 12px;
+                padding: 20px;
+                font-size: 24px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.2s;
+            
+            }
+
+            button:hover {
+                background-color: #ff9933;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Tap a Letter to Hear It!</h1>
+
+        <div class="letters">
+            <!-- Letters A–Z -->
+            <script>
+                const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                document.write(
+                    letters
+                        .split("")
+                        .map(letter => `<button onclick="sayLetter('${letter}')">${letter}</button>`)
+                        .join("")
+                );
+            </script>
+        </div>
+
+        <script>
+            function sayLetter(letter) {
+                const utterance = new SpeechSynthesisUtterance(letter);
+                utterance.lang = "en-BT"; // You can change this to another language code if needed
+                speechSynthesis.speak(utterance);
+            }
+        </script>
+        <button class="Nav"><a href="home.html"> Home </a></button>
+        <button class="Nav"><a href="g.html">Games</a></button>
+        <button class="Nav"><a href="n.html">Numbers </a></button>
+    </body>
+
+</html>

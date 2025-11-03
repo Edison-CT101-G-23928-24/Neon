@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learn Numbers</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #e6f7ff;
+                margin: 30px;
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            a {
+                text-decoration: none;
+                color: blue;
+                margin-left:20px;
+                 }
+
+            .numbers {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                max-width: 700px;
+                margin: 20px auto;
+            }
+
+            button {
+                background-color: #99ccff;
+                border: none;
+                border-radius: 8px;
+                padding: 15px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover {
+                background-color: #3399ff;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Tap a Number to Hear It!</h1>
+
+        <div class="numbers" id="numbers"></div>
+
+        <script>
+            // Generate buttons for numbers 0–100
+            const container = document.getElementById("numbers");
+            for (let i = 0; i <= 100; i++) {
+                const btn = document.createElement("button");
+                btn.textContent = i;
+                btn.onclick = () => sayNumber(i);
+                container.appendChild(btn);
+            }
+
+            // Function to pronounce the number
+            function sayNumber(num) {
+                const utterance = new SpeechSynthesisUtterance(num.toString());
+                utterance.lang = "en-US";  // Change language if needed
+                speechSynthesis.speak(utterance);
+            }
+        </script>
+        <button><a href="home.html">Home</a></button>
+        <button><a href="l.html">Letters</a></button>
+        <button><a href="g.html">Games</a></button>
+
+    </body>
+
+</html>

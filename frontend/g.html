@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Capital and Small Letters</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      margin: 30px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 30px;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .column h2 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #ffcc66;
+      border: none;
+      border-radius: 10px;
+      padding: 15px;
+      font-size: 24px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background-color: #ff9966;
+    }
+
+    .matched {
+      background-color: #66cc66 !important;
+      color: white;
+    }
+
+    .wrong {
+      background-color: #ff6666 !important;
+      color: white;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+    }
+    a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎲 Match Capital and Small Letters 🎲</h1>
+  <p>Click one capital letter and one small letter to find the correct pair!</p>
+
+  <div class="container">
+    <div class="column" id="capitals">
+      <h2>Capital Letters</h2>
+    </div>
+    <div class="column" id="smalls">
+      <h2>Small Letters</h2>
+    </div>
+  </div>
+
+  <p id="message"></p>
+
+  <button><a href="home.html">Home</a></button>
+  <button><a href="n.html">Numbers</a></button>
+  <button><a href="l.html">Letters</a></button>
+
+  <script>
+    const capitals = ['A', 'B', 'C', 'D', 'E'];
+    const smalls = ['a', 'b', 'c', 'd', 'e'];
+
+    const capitalContainer = document.getElementById('capitals');
+    const smallContainer = document.getElementById('smalls');
+    const message = document.getElementById('message');
+
+    let firstSelection = null;
+    let matches = 0;
+
+    function createButtons(letters, container, type) {
+      letters.sort(() => Math.random() - 0.5); // shuffle
+      letters.forEach(letter => {
+        const btn = document.createElement('button');
+        btn.textContent = letter;
+        btn.dataset.letter = letter;
+        btn.dataset.type = type;
+        btn.onclick = () => select(btn);
+        container.appendChild(btn);
+      });
+    }
+
+    function select(btn) {
+      if (btn.classList.contains('matched')) return;
+
+      if (!firstSelection) {
+        firstSelection = btn;
+        btn.style.backgroundColor = '#66b3ff';
+      } else {
+        const first = firstSelection;
+        const second = btn;
+
+        // check if different types (capital vs small)
+        if (first.dataset.type !== second.dataset.type) {
+          if (first.dataset.letter.toLowerCase() === second.dataset.letter.toLowerCase()) {
+            first.classList.add('matched');
+            second.classList.add('matched');
+            matches++;
+            if (matches === 5) {
+              message.textContent = "🎉 You matched all letters! Great job!";
+            }
+          } else {
+            first.classList.add('wrong');
+            second.classList.add('wrong');
+            setTimeout(() => {
+              first.classList.remove('wrong');
+              second.classList.remove('wrong');
+            }, 600);
+          }
+          first.style.backgroundColor = '';
+          firstSelection = null;
+        } else {
+          first.style.backgroundColor = '';
+          firstSelection = null;
+        }
+      }
+    }
+
+    createButtons([...capitals], capitalContainer, 'capital');
+    createButtons([...smalls], smallContainer, 'small');
+  </script>
+
+</body>
+</html>
